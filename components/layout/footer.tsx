@@ -7,7 +7,6 @@ import Grid from '@mui/material/Grid'
 import Link from '@mui/material/Link'
 import Typography from '@mui/material/Typography'
 
-
 export default function Footer() {
   return (
     <Box
@@ -62,7 +61,7 @@ export default function Footer() {
         <Box mt={5}>
           <Typography variant='body2' color='text.secondary' align='center'>
             {'Copyright © '}
-            <Link color='inherit' href='https://localhost:3000/'>
+            <Link color='inherit' href='/home'>
               Tech Cycle
             </Link>{' '}
             {new Date().getFullYear()}
