@@ -1,4 +1,3 @@
-import { TechCycleAppBar } from 'client/components/layout/TechCycleAppBar'
 import Head from 'next/head'
 
 import React, { useRef } from 'react'
@@ -9,6 +8,7 @@ import PanoramaVerticalIcon from '@mui/icons-material/PanoramaVertical'
 import { Box, Divider, Grid, Tab, Tabs } from '@mui/material'
 import Typography from '@mui/material/Typography'
 
+import { TechCycleAppBar } from '../../../components/layout/TechCycleAppBar'
 import Footer from '../../../components/layout/footer'
 import { ProductCard, ProductCardType } from '../../../components/products/ProductCard'
 import { ProductTabPanel } from '../../../components/products/tabPanel'
