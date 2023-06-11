@@ -21,7 +21,7 @@ const theme = createTheme({
 })
 
 export const axiosInstance = axios.create({
-  baseURL: `${process.env.NEXT_PUBLIC_BACKEND_HOST_URL}`,
+  baseURL: `https://techcycle-backend.azurewebsites.net/api/v1/`,
   timeout: 5000,
 })
 serviceOptions.axios = axiosInstance
