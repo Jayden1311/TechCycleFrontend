@@ -134,7 +134,7 @@ export const TechCycleAppBar = (props: Props) => {
                     textDecoration: 'none',
                   }}
                 >
-                  Tech Cycle
+                  TechCycle
                 </Typography>
               </FlexBox>
             </Link>
